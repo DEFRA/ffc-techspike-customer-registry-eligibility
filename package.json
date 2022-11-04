@@ -1,8 +1,8 @@
 {
-  "name": "ffc-template-node",
+  "name": "ffc-techspike-customer-registry-eligibility",
   "version": "0.1.0",
-  "description": "description-of-project-goes-here",
-  "homepage": "https://github.com/DEFRA/ffc-template-node",
+  "description": "Service for determining eligibility",
+  "homepage": "https://github.com/DEFRA/ffc-techspike-customer-registry-eligibility",
   "main": "app/index.js",
   "scripts": {
     "pretest": "npm run test:lint",
@@ -17,8 +17,11 @@
   "contributors": [],
   "license": "OGL-UK-3.0",
   "dependencies": {
-    "@hapi/hapi": "20.2.2",
-    "applicationinsights": "2.3.5"
+    "@azure/identity": "^2.0.2",
+    "@azure/data-tables": "^13.0.1",
+    "@hapi/hapi": "^19.1.1",
+    "applicationinsights": "^2.2.1",
+    "ffc-messaging": "2.5.1"
   },
   "devDependencies": {
     "jest": "29.2.2",

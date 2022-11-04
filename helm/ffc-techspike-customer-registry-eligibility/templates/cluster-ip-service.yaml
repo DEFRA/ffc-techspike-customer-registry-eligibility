@@ -1,0 +1,3 @@
+{{- include "ffc-helm-library.cluster-ip-service" (list . "ffc-techspike-customer-registry-eligibility.cluster-ip-service") -}}
+{{- define "ffc-techspike-customer-registry-eligibility.cluster-ip-service" -}}
+{{- end -}}

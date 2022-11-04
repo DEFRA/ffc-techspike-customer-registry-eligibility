@@ -1,8 +1,8 @@
 environment: production
 environmentCode:
-name: ffc-template-node
-namespace: ffc-demo
-image: ffc-template-node
+name: ffc-techspike-customer-registry-eligibility
+namespace: ffc-techspike
+image: ffc-techspike-customer-registry-eligibility
 
 labels:
   component: service
@@ -11,10 +11,10 @@ appInsights:
   key:
 
 containerConfigMap:
-  name: ffc-template-node-config-map
+  name: ffc-techspike-customer-registry-eligibility-config-map
 
 containerSecret:
-  name: ffc-template-node-container-secret
+  name: ffc-techspike-customer-registry-eligibility-container-secret
   type: Opaque
 
 deployment: {}

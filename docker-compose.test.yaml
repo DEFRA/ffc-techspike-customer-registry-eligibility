@@ -2,11 +2,11 @@
 # that test output is saved to the host
 
 services:
-  ffc-template-node:
+  ffc-techspike-customer-registry-eligibility:
     build:
       target: development
-    image: ffc-template-node-development
-    container_name: ffc-template-node-test
+    image: ffc-techspike-customer-registry-eligibility-development
+    container_name: ffc-techspike-customer-registry-eligibility-test
     command: npm run test
     volumes:
       - ./app:/home/node/app

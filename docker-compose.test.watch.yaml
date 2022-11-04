@@ -1,5 +1,5 @@
 services:
-  ffc-template-node:
+  ffc-techspike-customer-registry-eligibility:
     command: >
       sh -c "npm run test:watch"
     volumes:
